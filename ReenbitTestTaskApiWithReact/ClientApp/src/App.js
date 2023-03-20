@@ -9,8 +9,10 @@ export default class App extends Component {
 
   render() {
     return (
-      <Layout>
-        <Routes>
+        <Layout>
+            <h2>Trainee Camp .Net\Reenbit test task</h2>
+            <h2>Kravchenko Oleg</h2>
+            <Routes>
           {AppRoutes.map((route, index) => {
             const { element, ...rest } = route;
             return <Route key={index} {...rest} element={element} />;
